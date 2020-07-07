@@ -12,7 +12,6 @@
 <th>Restaurant Name</th>
 <th>Address</th>
 <th>Phone</th>
-</tr>
 <tr>
 <?php
 $serverName = "simplewebtp041315.database.windows.net";
@@ -43,6 +42,7 @@ echo "</tr>";
 }
 sqlsrv_free_stmt($getResults);
 ?>
+</tr>
 </table>
 </center>
 </body>
